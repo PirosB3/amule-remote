@@ -1,3 +1,15 @@
+# 
+#  aMuleClass.py
+#  amule-remote
+#  
+#  Created by piros on 2010-01-11.
+#  Licensed under MIT
+# 
+
+# ==========================================================================================
+# = This class interacts with aMuleCMD, it must be installed and configured on your server =
+# ==========================================================================================
+
 import pexpect
 import re
 from Foundation import NSLog
@@ -5,7 +17,7 @@ from time import sleep
 class amulecmd():
 	def __init__(self):
 		try:
-			self.process= pexpect.spawn('ssh -l hecyra 192.168.0.10 amulecmd', timeout=2)
+			self.process= pexpect.spawn('amulecmd', timeout=2)
 			self.process.expect('aMulecmd')
 			self.timeout= False
 		except pexpect.TIMEOUT:
@@ -21,9 +33,9 @@ class amulecmd():
 			return self.process.before
 	
 	def kad_status(self):
+## RETURNS KAD STATUS
 		if not self.timeout:
 			status= self.command('status')
-            # return_code= 'Kad is not running'
 			for x in status.splitlines():
 				if x.__contains__('Connesso'):
 					return_code= '<?xml version="1.0" encoding="UTF-8" ?>\n<root type="response" prompt="status">\n\t<status>ON</status>\n</root>'
@@ -33,6 +45,7 @@ class amulecmd():
 			return return_code
 		
 	def downloads(self):
+## RETURN DOWNLOAD STATUS
 		if not self.timeout:
 			list= self.command('show DL').splitlines()
 			status_pattern= '\[\w*,\w*%\]'
@@ -58,10 +71,12 @@ class amulecmd():
 			return '<?xml version="1.0" encoding="UTF-8" ?>\n<root>\n<error type="aMule not running"/>\n</root>'
 		
 	def search(self, query):
+## SENDS A SEARCH REQUEST, THIS METHOD REQUIRES THE SEARCH QUERY
 		if not self.timeout:
 			self.command('search kad %s' % query)
 		
 	def results(self):
+## RETURNS RESULTS
 		if not self.timeout:
 		    list= self.command('results').splitlines()
 		    results= []
