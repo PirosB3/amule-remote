@@ -4,7 +4,7 @@
 aMuleSocket.py
 
 Created by piros on 2010-01-01.
-Licensed under GPL
+Licensed under MIT
 """
 
 import sys
@@ -17,7 +17,11 @@ from xml.parsers.expat import ExpatError
 from aMuleClass import amulecmd
 
 mule= amulecmd()
-logfile= open('log.txt', 'a+')
+## This is the logfile, it spawns on first start, the changes to it will be effective only when the socket gets killed
+logfile= open('log.txt', 'a+') ## CHANGE IF NECESSARY
+
+host= socket.gethostbyname(socket.gethostname()) ## CHANGE IF NECESSARY
+port= 2000 ## CHANGE IF NECESSARY
 
 def request_from_aMule(element):
     ask= element.attrib['prompt']
@@ -56,10 +60,10 @@ def parse_xml(data):
 
 def main():
     sock= socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-    ##For testing aMuleDummy
-    sock.bind(('localhost', 2000))
+    sock.bind((host, port))
+    print "running on address:%s and on port %d" % (host, port)
     sock.listen(1)
-    # serve forever
+    # serves forever..
     while 1:
         conn, addr= sock.accept()
         logfile.write("%s - %s requested a connection\n" % (strftime("%Y-%m-%d %H:%M:%S"), addr[0]))
