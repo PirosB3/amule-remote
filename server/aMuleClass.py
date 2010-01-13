@@ -65,7 +65,7 @@ class amulecmd():
 				status.append(y[0])
 				arrange= True
 			for x in range(0, len(files)):
-			        results.append('\t<file name="%s" status="%s" hash="%s" />\n'  %(files[x], status[x], hashes[x]))
+			        results.append('<file name="%s" status="%s" hash="%s" />\n'  %(files[x], status[x], hashes[x]))
 			return '<?xml version="1.0" encoding="UTF-8" ?>\n<root>\n<downloads>\n' + "".join(results) + '</downloads>\n</root>\n'
 		else:
 			return '<?xml version="1.0" encoding="UTF-8" ?>\n<root>\n<error type="aMule not running"/>\n</root>'
@@ -87,7 +87,7 @@ class amulecmd():
 			size= re.findall('\d*\.\d*\d', y)
 			disp= re.findall('\d*$', y)
 			try:
-			    results.append('\t<file id="%d" name="%s" size="%d" disp="%d"/>\n' % (int(number[0]),''.join([ c for c in x[3:] if c not in ('@', '&')]), float(size[0]), int(disp[0])))
+			    results.append('<file id="%d" name="%s" size="%d" disp="%d"/>\n' % (int(number[0]),''.join([ c for c in x[3:] if c not in ('@', '&')]), float(size[0]), int(disp[0])))
 			except ValueError:
 			    pass
 		    #print len(results)
