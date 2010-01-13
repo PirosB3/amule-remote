@@ -12,7 +12,6 @@
 
 import pexpect
 import re
-from Foundation import NSLog
 from time import sleep
 class amulecmd():
 	def __init__(self):
