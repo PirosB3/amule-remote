@@ -25,11 +25,11 @@ class amulecmd():
 		if not self.timeout:
 			self.process.expect('aMulecmd')
         def filters(self, name):
-            name= name.replace("&", "&amp")
-            name= name.replace('"', '&quot')
-            name= name.replace("'", '&apos')
-            name= name.replace("<", "&lt")
-            name= name.replace(">", "&gt")
+            name= name.replace("&", "&amp;")
+            name= name.replace('"', '&quot;')
+            name= name.replace("'", '&apos;')
+            name= name.replace("<", "&lt;")
+            name= name.replace(">", "&gt;")
             return name
 	def command(self, command):
 		if not self.timeout:
