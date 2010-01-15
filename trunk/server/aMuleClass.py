@@ -24,7 +24,13 @@ class amulecmd():
 	def prompt(self):
 		if not self.timeout:
 			self.process.expect('aMulecmd')
-	
+        def filters(self, name):
+            name= name.replace("&", "&amp")
+            name= name.replace('"', '&quot')
+            name= name.replace("'", '&apos')
+            name= name.replace("<", "&lt")
+            name= name.replace(">", "&gt")
+            return name
 	def command(self, command):
 		if not self.timeout:
 			self.process.sendline(command)
@@ -86,7 +92,7 @@ class amulecmd():
 			size= re.findall('\d*\.\d*\d', y)
 			disp= re.findall('\d*$', y)
 			try:
-			    results.append('<file id="%d" name="%s" size="%d" disp="%d"/>\n' % (int(number[0]),''.join([ c for c in x[3:] if c not in ('@', '&')]), float(size[0]), int(disp[0])))
+			    results.append('<file id="%d" name="%s" size="%d" disp="%d"/>\n' % (int(number[0]), self.filters(x[3:]), float(size[0]), int(disp[0])))
 			except ValueError:
 			    pass
 		    #print len(results)
