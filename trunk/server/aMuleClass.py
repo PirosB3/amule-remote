@@ -25,12 +25,14 @@ class amulecmd():
 		if not self.timeout:
 			self.process.expect('aMulecmd')
         def filters(self, name):
+            ## RETURNS VALID DATA
             name= name.replace("&", "&amp;")
             name= name.replace('"', '&quot;')
             name= name.replace("'", '&apos;')
             name= name.replace("<", "&lt;")
             name= name.replace(">", "&gt;")
             return name
+        
 	def command(self, command):
 		if not self.timeout:
 			self.process.sendline(command)
@@ -70,7 +72,7 @@ class amulecmd():
 				status.append(y[0])
 				arrange= True
 			for x in range(0, len(files)):
-			        results.append('<file name="%s" status="%s" hash="%s" />\n'  %(files[x], status[x], hashes[x]))
+			        results.append('<file name="%s" status="%s" hash="%s" />\n'  %(self.filters(files[x]), status[x], hashes[x]))
 			return '<?xml version="1.0" encoding="UTF-8" ?>\n<root>\n<downloads>\n' + "".join(results) + '</downloads>\n</root>\n'
 		else:
 			return '<?xml version="1.0" encoding="UTF-8" ?>\n<root>\n<error type="aMule not running"/>\n</root>'

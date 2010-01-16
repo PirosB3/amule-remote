@@ -268,6 +268,7 @@
 								<string>29B97314FDCFA39411CA2CEA</string>
 								<string>6CF96DBE10F38AB7009714CC</string>
 								<string>080E96DDFE201D6D7F000001</string>
+								<string>29B97315FDCFA39411CA2CEA</string>
 								<string>1C37FBAC04509CD000000102</string>
 								<string>1C37FABC05509CD000000102</string>
 								<string>1CC0EA4004350EF90041110B</string>
@@ -275,8 +276,8 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>8</integer>
-									<integer>4</integer>
+									<integer>15</integer>
+									<integer>13</integer>
 									<integer>0</integer>
 								</array>
 							</array>
@@ -300,7 +301,7 @@
 							<real>186</real>
 						</array>
 						<key>RubberWindowFrame</key>
-						<string>260 -386 1280 897 0 0 1280 1002 </string>
+						<string>245 -296 1280 897 0 0 1280 1002 </string>
 					</dict>
 					<key>Module</key>
 					<string>PBXSmartGroupTreeModule</string>
@@ -316,7 +317,7 @@
 								<key>PBXProjectModuleGUID</key>
 								<string>1CE0B20306471E060097A5F4</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>iMuleAppDelegate.m</string>
+								<string>icon.png</string>
 								<key>PBXSplitModuleInNavigatorKey</key>
 								<dict>
 									<key>Split0</key>
@@ -324,22 +325,23 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>1CE0B20406471E060097A5F4</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>iMuleAppDelegate.m</string>
+										<string>icon.png</string>
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>6C841A1610FA9B75000A6A2A</string>
+										<string>6CE83CD01101FA16001C2D6A</string>
 										<key>history</key>
 										<array>
 											<string>6C54951010F4EBD2003A244E</string>
 											<string>6C6379AD10F63E8D00E26C67</string>
 											<string>6CE1266910F77F6E006814F4</string>
 											<string>6CFF42FC10FA427A007A21A6</string>
-											<string>6CFF42FD10FA427A007A21A6</string>
 											<string>6C841A0E10FA9B75000A6A2A</string>
 											<string>6C841A0F10FA9B75000A6A2A</string>
 											<string>6C841A1010FA9B75000A6A2A</string>
-											<string>6C841A1110FA9B75000A6A2A</string>
+											<string>6CE83CC81101FA16001C2D6A</string>
+											<string>6CE83CC91101FA16001C2D6A</string>
+											<string>6CE83CCB1101FA16001C2D6A</string>
 										</array>
 										<key>prevStack</key>
 										<array>
@@ -352,10 +354,9 @@
 											<string>6C54951610F4EBD2003A244E</string>
 											<string>6C54954310F4FE2C003A244E</string>
 											<string>6C54955310F5009C003A244E</string>
-											<string>6C841A1210FA9B75000A6A2A</string>
-											<string>6C841A1310FA9B75000A6A2A</string>
-											<string>6C841A1410FA9B75000A6A2A</string>
-											<string>6C841A1510FA9B75000A6A2A</string>
+											<string>6CE83CCC1101FA16001C2D6A</string>
+											<string>6CE83CCD1101FA16001C2D6A</string>
+											<string>6CE83CCE1101FA16001C2D6A</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -369,7 +370,7 @@
 								<key>Frame</key>
 								<string>{{0, 0}, {1072, 678}}</string>
 								<key>RubberWindowFrame</key>
-								<string>260 -386 1280 897 0 0 1280 1002 </string>
+								<string>245 -296 1280 897 0 0 1280 1002 </string>
 							</dict>
 							<key>Module</key>
 							<string>PBXNavigatorGroup</string>
@@ -389,7 +390,7 @@
 								<key>Frame</key>
 								<string>{{0, 683}, {1072, 173}}</string>
 								<key>RubberWindowFrame</key>
-								<string>260 -386 1280 897 0 0 1280 1002 </string>
+								<string>245 -296 1280 897 0 0 1280 1002 </string>
 							</dict>
 							<key>Module</key>
 							<string>XCDetailModule</string>
@@ -413,9 +414,9 @@
 			</array>
 			<key>TableOfContents</key>
 			<array>
-				<string>6C8419FE10FA9863000A6A2A</string>
+				<string>6CE83CC01101F97F001C2D6A</string>
 				<string>1CE0B1FE06471DED0097A5F4</string>
-				<string>6C8419FF10FA9863000A6A2A</string>
+				<string>6CE83CC11101F97F001C2D6A</string>
 				<string>1CE0B20306471E060097A5F4</string>
 				<string>1CE0B20506471E060097A5F4</string>
 			</array>
@@ -549,15 +550,10 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
-		<string>6C841A1710FA9B75000A6A2A</string>
-		<string>6C841A1810FA9B75000A6A2A</string>
-		<string>1C78EAAD065D492600B07095</string>
-		<string>6CF96E3F10F42E2E009714CC</string>
-		<string>1CD10A99069EF8BA00B06720</string>
-		<string>/Users/piros/Desktop/aMuleSocket/iMule/iMule.xcodeproj</string>
+		<string>/Users/piros/Documents/amule-remote/client/iMule/iMule.xcodeproj</string>
 	</array>
 	<key>WindowString</key>
-	<string>260 -386 1280 897 0 0 1280 1002 </string>
+	<string>245 -296 1280 897 0 0 1280 1002 </string>
 	<key>WindowToolsV3</key>
 	<array>
 		<dict>
