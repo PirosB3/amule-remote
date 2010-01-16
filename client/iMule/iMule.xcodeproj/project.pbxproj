@@ -16,6 +16,8 @@
 		288765080DF74369002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765070DF74369002DB57D /* CoreGraphics.framework */; };
 		28AD73880D9D96C1002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD73870D9D96C1002E5188 /* MainWindow.xib */; };
 		6C54953410F4FBEA003A244E /* ResultsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C54953310F4FBEA003A244E /* ResultsController.m */; };
+		6CE83CC51101F9DD001C2D6A /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 6CE83CC41101F9DD001C2D6A /* icon.png */; };
+		6CE83CC71101F9E5001C2D6A /* tableView.png in Resources */ = {isa = PBXBuildFile; fileRef = 6CE83CC61101F9E5001C2D6A /* tableView.png */; };
 		6CF96DC310F38AC3009714CC /* AsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CF96DC210F38AC3009714CC /* AsyncSocket.m */; };
 		6CF96DC610F38B15009714CC /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CF96DC510F38B15009714CC /* CFNetwork.framework */; };
 		6CF96E0410F41EBE009714CC /* DownloadsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CF96E0310F41EBE009714CC /* DownloadsController.m */; };
@@ -36,6 +38,8 @@
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		6C54953210F4FBEA003A244E /* ResultsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResultsController.h; sourceTree = "<group>"; };
 		6C54953310F4FBEA003A244E /* ResultsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResultsController.m; sourceTree = "<group>"; };
+		6CE83CC41101F9DD001C2D6A /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon.png; path = icons/icon.png; sourceTree = "<group>"; };
+		6CE83CC61101F9E5001C2D6A /* tableView.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = tableView.png; path = icons/tableView.png; sourceTree = "<group>"; };
 		6CF96DC110F38AC3009714CC /* AsyncSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AsyncSocket.h; sourceTree = "<group>"; };
 		6CF96DC210F38AC3009714CC /* AsyncSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AsyncSocket.m; sourceTree = "<group>"; };
 		6CF96DC510F38B15009714CC /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
@@ -99,6 +103,8 @@
 		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
 			isa = PBXGroup;
 			children = (
+				6CE83CC61101F9E5001C2D6A /* tableView.png */,
+				6CE83CC41101F9DD001C2D6A /* icon.png */,
 				28A0AB4B0D9B1048005BE974 /* iMule_Prefix.pch */,
 				29B97316FDCFA39411CA2CEA /* main.m */,
 			);
@@ -178,6 +184,8 @@
 			files = (
 				28AD73880D9D96C1002E5188 /* MainWindow.xib in Resources */,
 				282CCBFE0DB6C98000C4EA27 /* SecondView.xib in Resources */,
+				6CE83CC51101F9DD001C2D6A /* icon.png in Resources */,
+				6CE83CC71101F9E5001C2D6A /* tableView.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
