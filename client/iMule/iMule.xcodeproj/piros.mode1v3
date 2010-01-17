@@ -326,7 +326,7 @@
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>6CE83CDF1101FBC8001C2D6A</string>
+										<string>6C01ACD61102A793003E7F8E</string>
 										<key>history</key>
 										<array>
 											<string>6C54951010F4EBD2003A244E</string>
@@ -337,11 +337,10 @@
 											<string>6C841A0F10FA9B75000A6A2A</string>
 											<string>6C841A1010FA9B75000A6A2A</string>
 											<string>6CE83CC81101FA16001C2D6A</string>
-											<string>6CE83CC91101FA16001C2D6A</string>
 											<string>6CE83CD61101FBC8001C2D6A</string>
 											<string>6CE83CD71101FBC8001C2D6A</string>
 											<string>6CE83CD81101FBC8001C2D6A</string>
-											<string>6CE83CD91101FBC8001C2D6A</string>
+											<string>6CE83CDF1101FBC8001C2D6A</string>
 										</array>
 										<key>prevStack</key>
 										<array>
@@ -354,13 +353,10 @@
 											<string>6C54951610F4EBD2003A244E</string>
 											<string>6C54954310F4FE2C003A244E</string>
 											<string>6C54955310F5009C003A244E</string>
-											<string>6CE83CCC1101FA16001C2D6A</string>
 											<string>6CE83CCD1101FA16001C2D6A</string>
-											<string>6CE83CCE1101FA16001C2D6A</string>
 											<string>6CE83CDA1101FBC8001C2D6A</string>
 											<string>6CE83CDC1101FBC8001C2D6A</string>
 											<string>6CE83CDD1101FBC8001C2D6A</string>
-											<string>6CE83CDE1101FBC8001C2D6A</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -420,9 +416,9 @@
 			</array>
 			<key>TableOfContents</key>
 			<array>
-				<string>6CE83CC01101F97F001C2D6A</string>
+				<string>6C01ACD71102A793003E7F8E</string>
 				<string>1CE0B1FE06471DED0097A5F4</string>
-				<string>6CE83CC11101F97F001C2D6A</string>
+				<string>6C01ACD81102A793003E7F8E</string>
 				<string>1CE0B20306471E060097A5F4</string>
 				<string>1CE0B20506471E060097A5F4</string>
 			</array>
@@ -556,9 +552,9 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
+		<string>1C78EAAD065D492600B07095</string>
 		<string>1CD10A99069EF8BA00B06720</string>
 		<string>6CF96E3F10F42E2E009714CC</string>
-		<string>1C78EAAD065D492600B07095</string>
 		<string>/Users/piros/Documents/amule-remote/client/iMule/iMule.xcodeproj</string>
 	</array>
 	<key>WindowString</key>
@@ -639,7 +635,7 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>6CF96E3F10F42E2E009714CC</string>
-				<string>6CE83CE01101FBC8001C2D6A</string>
+				<string>6C01ACD91102A793003E7F8E</string>
 				<string>1CD0528F0623707200166675</string>
 				<string>XCMainBuildResultsModuleGUID</string>
 			</array>
@@ -759,13 +755,13 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>1CD10A99069EF8BA00B06720</string>
-				<string>6CE83CE11101FBC8001C2D6A</string>
+				<string>6C01ACDA1102A793003E7F8E</string>
 				<string>1C162984064C10D400B95A72</string>
-				<string>6CE83CE21101FBC8001C2D6A</string>
-				<string>6CE83CE31101FBC8001C2D6A</string>
-				<string>6CE83CE41101FBC8001C2D6A</string>
-				<string>6CE83CE51101FBC8001C2D6A</string>
-				<string>6CE83CE61101FBC8001C2D6A</string>
+				<string>6C01ACDB1102A793003E7F8E</string>
+				<string>6C01ACDC1102A793003E7F8E</string>
+				<string>6C01ACDD1102A793003E7F8E</string>
+				<string>6C01ACDE1102A793003E7F8E</string>
+				<string>6C01ACDF1102A793003E7F8E</string>
 			</array>
 			<key>ToolbarConfiguration</key>
 			<string>xcode.toolbar.config.debugV3</string>
@@ -892,8 +888,6 @@
 					<key>Dock</key>
 					<array>
 						<dict>
-							<key>BecomeActive</key>
-							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
@@ -929,7 +923,7 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>1C78EAAD065D492600B07095</string>
-				<string>6CE83CE71101FBC8001C2D6A</string>
+				<string>6C01ACE01102A793003E7F8E</string>
 				<string>1C78EAAC065D492600B07095</string>
 			</array>
 			<key>ToolbarConfiguration</key>
@@ -939,7 +933,7 @@
 			<key>WindowToolGUID</key>
 			<string>1C78EAAD065D492600B07095</string>
 			<key>WindowToolIsVisible</key>
-			<true/>
+			<false/>
 		</dict>
 		<dict>
 			<key>Identifier</key>

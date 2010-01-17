@@ -17,7 +17,7 @@ from time import sleep
 class amulecmd():
 	def __init__(self):
 		try:
-			self.process= pexpect.spawn('ssh -l hecyra 192.168.0.10 amulecmd', timeout=2)
+			self.process= pexpect.spawn('amulecmd', timeout=2)
 			self.process.expect('aMulecmd')
 			self.timeout= False
 		except pexpect.TIMEOUT:
