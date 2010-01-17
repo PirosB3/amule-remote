@@ -1,15 +1,11 @@
-//
-//  DownloadsController.h
-//  iMule
-//
-//  Created by piros on 1/6/10.
-//  Copyright 2010 __MyCompanyName__. All rights reserved.
+// iMule
+// DownloadsController.h
+
+// RELEASED UNDER MIT LICENSE BY PirosB3
 //
 
 #import <UIKit/UIKit.h>
 #import "iMuleAppDelegate.h"
-
-//#define delegate [[UIApplication sharedApplicaion delegate]
 
 @interface DownloadsController : UITableViewController {
 	NSMutableArray *downloads;
