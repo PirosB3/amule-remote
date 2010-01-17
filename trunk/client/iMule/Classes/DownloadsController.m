@@ -139,6 +139,7 @@
 		NSLog(deleteRequest);
 		[[delegate socket] writeData:[deleteRequest dataUsingEncoding:NSASCIIStringEncoding] withTimeout:-1 tag:1];
 		[deleteRequest release];
+		[[delegate socket] writeData:self.downloadRequest withTimeout:-1 tag:1];
     }   
     else if (editingStyle == UITableViewCellEditingStyleInsert) {
         // Create a new instance of the appropriate class, insert it into the array, and add a new row to the table view
