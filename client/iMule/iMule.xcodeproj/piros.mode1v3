@@ -228,8 +228,6 @@
 			<key>Layout</key>
 			<array>
 				<dict>
-					<key>BecomeActive</key>
-					<true/>
 					<key>ContentConfiguration</key>
 					<dict>
 						<key>PBXBottomSmartGroupGIDs</key>
@@ -269,6 +267,7 @@
 								<string>6CF96DBE10F38AB7009714CC</string>
 								<string>080E96DDFE201D6D7F000001</string>
 								<string>29B97315FDCFA39411CA2CEA</string>
+								<string>29B97317FDCFA39411CA2CEA</string>
 								<string>1C37FBAC04509CD000000102</string>
 								<string>1C37FABC05509CD000000102</string>
 								<string>1CC0EA4004350EF90041110B</string>
@@ -276,9 +275,7 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>15</integer>
-									<integer>13</integer>
-									<integer>0</integer>
+									<integer>34</integer>
 								</array>
 							</array>
 							<key>PBXSmartGroupTreeModuleOutlineStateVisibleRectKey</key>
@@ -301,7 +298,7 @@
 							<real>186</real>
 						</array>
 						<key>RubberWindowFrame</key>
-						<string>245 -296 1280 897 0 0 1280 1002 </string>
+						<string>50 55 1280 897 0 0 1280 1002 </string>
 					</dict>
 					<key>Module</key>
 					<string>PBXSmartGroupTreeModule</string>
@@ -317,7 +314,7 @@
 								<key>PBXProjectModuleGUID</key>
 								<string>1CE0B20306471E060097A5F4</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>icon.png</string>
+								<string>iMule-Info.plist</string>
 								<key>PBXSplitModuleInNavigatorKey</key>
 								<dict>
 									<key>Split0</key>
@@ -325,11 +322,11 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>1CE0B20406471E060097A5F4</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>icon.png</string>
+										<string>iMule-Info.plist</string>
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>6CE83CD01101FA16001C2D6A</string>
+										<string>6CE83CDF1101FBC8001C2D6A</string>
 										<key>history</key>
 										<array>
 											<string>6C54951010F4EBD2003A244E</string>
@@ -341,7 +338,10 @@
 											<string>6C841A1010FA9B75000A6A2A</string>
 											<string>6CE83CC81101FA16001C2D6A</string>
 											<string>6CE83CC91101FA16001C2D6A</string>
-											<string>6CE83CCB1101FA16001C2D6A</string>
+											<string>6CE83CD61101FBC8001C2D6A</string>
+											<string>6CE83CD71101FBC8001C2D6A</string>
+											<string>6CE83CD81101FBC8001C2D6A</string>
+											<string>6CE83CD91101FBC8001C2D6A</string>
 										</array>
 										<key>prevStack</key>
 										<array>
@@ -357,6 +357,10 @@
 											<string>6CE83CCC1101FA16001C2D6A</string>
 											<string>6CE83CCD1101FA16001C2D6A</string>
 											<string>6CE83CCE1101FA16001C2D6A</string>
+											<string>6CE83CDA1101FBC8001C2D6A</string>
+											<string>6CE83CDC1101FBC8001C2D6A</string>
+											<string>6CE83CDD1101FBC8001C2D6A</string>
+											<string>6CE83CDE1101FBC8001C2D6A</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -370,7 +374,7 @@
 								<key>Frame</key>
 								<string>{{0, 0}, {1072, 678}}</string>
 								<key>RubberWindowFrame</key>
-								<string>245 -296 1280 897 0 0 1280 1002 </string>
+								<string>50 55 1280 897 0 0 1280 1002 </string>
 							</dict>
 							<key>Module</key>
 							<string>PBXNavigatorGroup</string>
@@ -378,6 +382,8 @@
 							<string>678pt</string>
 						</dict>
 						<dict>
+							<key>BecomeActive</key>
+							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
@@ -390,7 +396,7 @@
 								<key>Frame</key>
 								<string>{{0, 683}, {1072, 173}}</string>
 								<key>RubberWindowFrame</key>
-								<string>245 -296 1280 897 0 0 1280 1002 </string>
+								<string>50 55 1280 897 0 0 1280 1002 </string>
 							</dict>
 							<key>Module</key>
 							<string>XCDetailModule</string>
@@ -550,10 +556,13 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
+		<string>1CD10A99069EF8BA00B06720</string>
+		<string>6CF96E3F10F42E2E009714CC</string>
+		<string>1C78EAAD065D492600B07095</string>
 		<string>/Users/piros/Documents/amule-remote/client/iMule/iMule.xcodeproj</string>
 	</array>
 	<key>WindowString</key>
-	<string>245 -296 1280 897 0 0 1280 1002 </string>
+	<string>50 55 1280 897 0 0 1280 1002 </string>
 	<key>WindowToolsV3</key>
 	<array>
 		<dict>
@@ -630,7 +639,7 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>6CF96E3F10F42E2E009714CC</string>
-				<string>6C841A0010FA9863000A6A2A</string>
+				<string>6CE83CE01101FBC8001C2D6A</string>
 				<string>1CD0528F0623707200166675</string>
 				<string>XCMainBuildResultsModuleGUID</string>
 			</array>
@@ -750,13 +759,13 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>1CD10A99069EF8BA00B06720</string>
-				<string>6C841A0110FA9863000A6A2A</string>
+				<string>6CE83CE11101FBC8001C2D6A</string>
 				<string>1C162984064C10D400B95A72</string>
-				<string>6C841A0210FA9863000A6A2A</string>
-				<string>6C841A0310FA9863000A6A2A</string>
-				<string>6C841A0410FA9863000A6A2A</string>
-				<string>6C841A0510FA9863000A6A2A</string>
-				<string>6C841A0610FA9863000A6A2A</string>
+				<string>6CE83CE21101FBC8001C2D6A</string>
+				<string>6CE83CE31101FBC8001C2D6A</string>
+				<string>6CE83CE41101FBC8001C2D6A</string>
+				<string>6CE83CE51101FBC8001C2D6A</string>
+				<string>6CE83CE61101FBC8001C2D6A</string>
 			</array>
 			<key>ToolbarConfiguration</key>
 			<string>xcode.toolbar.config.debugV3</string>
@@ -920,7 +929,7 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>1C78EAAD065D492600B07095</string>
-				<string>6C841A0910FA99AB000A6A2A</string>
+				<string>6CE83CE71101FBC8001C2D6A</string>
 				<string>1C78EAAC065D492600B07095</string>
 			</array>
 			<key>ToolbarConfiguration</key>
@@ -930,7 +939,7 @@
 			<key>WindowToolGUID</key>
 			<string>1C78EAAD065D492600B07095</string>
 			<key>WindowToolIsVisible</key>
-			<false/>
+			<true/>
 		</dict>
 		<dict>
 			<key>Identifier</key>

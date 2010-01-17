@@ -12,11 +12,12 @@
 
 import pexpect
 import re
+from operator import itemgetter
 from time import sleep
 class amulecmd():
 	def __init__(self):
 		try:
-			self.process= pexpect.spawn('amulecmd', timeout=2)
+			self.process= pexpect.spawn('ssh -l hecyra 192.168.0.10 amulecmd', timeout=2)
 			self.process.expect('aMulecmd')
 			self.timeout= False
 		except pexpect.TIMEOUT:
@@ -24,6 +25,8 @@ class amulecmd():
 	def prompt(self):
 		if not self.timeout:
 			self.process.expect('aMulecmd')
+	def sortByDisp(self, unsorted):
+		return sorted(unsorted, key= itemgetter('disp'), reverse=True)
         def filters(self, name):
             ## RETURNS VALID DATA
             name= name.replace("&", "&amp;")
@@ -86,7 +89,8 @@ class amulecmd():
 ## RETURNS RESULTS
 		if not self.timeout:
 		    list= self.command('results').splitlines()
-		    results= []
+		    results_unsorted= []
+		    results_xml= []
 		    del list[(len(list)-1)]
 		    for x in list[3:]:
 		        y= ' '.join(x.split())
@@ -94,10 +98,11 @@ class amulecmd():
 			size= re.findall('\d*\.\d*\d', y)
 			disp= re.findall('\d*$', y)
 			try:
-			    results.append('<file id="%d" name="%s" size="%d" disp="%d"/>\n' % (int(number[0]), self.filters(x[3:]), float(size[0]), int(disp[0])))
+			    results_unsorted.append({'num': int(number[0]), 'name': x[3:], 'size': float(size[0]), 'disp': int(disp[0])})
 			except ValueError:
 			    pass
-		    #print len(results)
-		    return '<?xml version="1.0" encoding="UTF-8" ?>\n<root>\n<results>\n' + "".join(results) + "</results>\n</root>\n"
+		    for result in self.sortByDisp(results_unsorted)[0:30]:
+			results_xml.append('<file id="%d" name="%s" size="%d" disp="%d"/>\n' % (result['num'], self.filters(result['name']), result['size'], result['disp']))
+		    return '<?xml version="1.0" encoding="UTF-8" ?>\n<root>\n<results>\n' + "".join(results_xml) + "</results>\n</root>\n"
 		else:
 			return '<?xml version="1.0" encoding="UTF-8" ?>\n<root>\n<error type="aMule not running"/>\n</root>'

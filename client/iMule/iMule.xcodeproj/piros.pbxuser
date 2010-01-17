@@ -35,6 +35,13 @@
 			sepNavVisRange = "{506, 939}";
 		};
 	};
+	28A0AB4B0D9B1048005BE974 /* iMule_Prefix.pch */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1011, 646}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 179}";
+		};
+	};
 	29B97313FDCFA39411CA2CEA /* Project object */ = {
 		activeBuildConfigurationName = Debug;
 		activeExecutable = 6CF96DA110F38A2D009714CC /* iMule */;
@@ -110,37 +117,36 @@
 			PBXWorkspaceStateSaveDate = 285342073;
 		};
 		perUserProjectItems = {
-			6C54951010F4EBD2003A244E = 6C54951010F4EBD2003A244E /* PBXTextBookmark */;
-			6C54951610F4EBD2003A244E = 6C54951610F4EBD2003A244E /* PBXTextBookmark */;
-			6C54954310F4FE2C003A244E = 6C54954310F4FE2C003A244E /* PBXTextBookmark */;
-			6C54955310F5009C003A244E = 6C54955310F5009C003A244E /* PBXTextBookmark */;
-			6C6379AD10F63E8D00E26C67 = 6C6379AD10F63E8D00E26C67 /* PBXTextBookmark */;
-			6C841A0E10FA9B75000A6A2A = 6C841A0E10FA9B75000A6A2A /* PBXTextBookmark */;
-			6C841A0F10FA9B75000A6A2A = 6C841A0F10FA9B75000A6A2A /* PBXTextBookmark */;
-			6C841A1010FA9B75000A6A2A = 6C841A1010FA9B75000A6A2A /* PBXTextBookmark */;
-			6C841A1110FA9B75000A6A2A = 6C841A1110FA9B75000A6A2A /* PBXTextBookmark */;
-			6C841A1210FA9B75000A6A2A = 6C841A1210FA9B75000A6A2A /* PBXTextBookmark */;
-			6C841A1310FA9B75000A6A2A = 6C841A1310FA9B75000A6A2A /* PBXTextBookmark */;
-			6C841A1410FA9B75000A6A2A = 6C841A1410FA9B75000A6A2A /* PBXTextBookmark */;
-			6C841A1510FA9B75000A6A2A = 6C841A1510FA9B75000A6A2A /* PBXTextBookmark */;
-			6C841A1610FA9B75000A6A2A = 6C841A1610FA9B75000A6A2A /* PBXTextBookmark */;
-			6CE1266910F77F6E006814F4 = 6CE1266910F77F6E006814F4 /* PBXTextBookmark */;
-			6CE83CBF1101F97F001C2D6A /* PBXTextBookmark */ = 6CE83CBF1101F97F001C2D6A /* PBXTextBookmark */;
+			6C54951010F4EBD2003A244E /* PBXTextBookmark */ = 6C54951010F4EBD2003A244E /* PBXTextBookmark */;
+			6C54951610F4EBD2003A244E /* PBXTextBookmark */ = 6C54951610F4EBD2003A244E /* PBXTextBookmark */;
+			6C54954310F4FE2C003A244E /* PBXTextBookmark */ = 6C54954310F4FE2C003A244E /* PBXTextBookmark */;
+			6C54955310F5009C003A244E /* PBXTextBookmark */ = 6C54955310F5009C003A244E /* PBXTextBookmark */;
+			6C6379AD10F63E8D00E26C67 /* PBXTextBookmark */ = 6C6379AD10F63E8D00E26C67 /* PBXTextBookmark */;
+			6C841A0E10FA9B75000A6A2A /* PBXTextBookmark */ = 6C841A0E10FA9B75000A6A2A /* PBXTextBookmark */;
+			6C841A0F10FA9B75000A6A2A /* PBXTextBookmark */ = 6C841A0F10FA9B75000A6A2A /* PBXTextBookmark */;
+			6C841A1010FA9B75000A6A2A /* PBXTextBookmark */ = 6C841A1010FA9B75000A6A2A /* PBXTextBookmark */;
+			6CE1266910F77F6E006814F4 /* PBXTextBookmark */ = 6CE1266910F77F6E006814F4 /* PBXTextBookmark */;
 			6CE83CC81101FA16001C2D6A /* PBXTextBookmark */ = 6CE83CC81101FA16001C2D6A /* PBXTextBookmark */;
 			6CE83CC91101FA16001C2D6A /* PBXBookmark */ = 6CE83CC91101FA16001C2D6A /* PBXBookmark */;
-			6CE83CCB1101FA16001C2D6A /* PBXBookmark */ = 6CE83CCB1101FA16001C2D6A /* PBXBookmark */;
 			6CE83CCC1101FA16001C2D6A /* PBXTextBookmark */ = 6CE83CCC1101FA16001C2D6A /* PBXTextBookmark */;
 			6CE83CCD1101FA16001C2D6A /* PBXBookmark */ = 6CE83CCD1101FA16001C2D6A /* PBXBookmark */;
 			6CE83CCE1101FA16001C2D6A /* PBXBookmark */ = 6CE83CCE1101FA16001C2D6A /* PBXBookmark */;
-			6CE83CD01101FA16001C2D6A /* PBXBookmark */ = 6CE83CD01101FA16001C2D6A /* PBXBookmark */;
-			6CF96E4E10F42E36009714CC = 6CF96E4E10F42E36009714CC /* PBXTextBookmark */;
-			6CF96E4F10F42E36009714CC = 6CF96E4F10F42E36009714CC /* PBXTextBookmark */;
-			6CF96E5210F42E36009714CC = 6CF96E5210F42E36009714CC /* PBXTextBookmark */;
-			6CF96E5310F42E36009714CC = 6CF96E5310F42E36009714CC /* PBXTextBookmark */;
-			6CF96E5410F42E36009714CC = 6CF96E5410F42E36009714CC /* PBXTextBookmark */;
-			6CF96E7B10F4329C009714CC = 6CF96E7B10F4329C009714CC /* PBXTextBookmark */;
-			6CFF42FC10FA427A007A21A6 = 6CFF42FC10FA427A007A21A6 /* PBXTextBookmark */;
-			6CFF42FD10FA427A007A21A6 = 6CFF42FD10FA427A007A21A6 /* PBXTextBookmark */;
+			6CE83CD61101FBC8001C2D6A /* PBXTextBookmark */ = 6CE83CD61101FBC8001C2D6A /* PBXTextBookmark */;
+			6CE83CD71101FBC8001C2D6A /* PBXBookmark */ = 6CE83CD71101FBC8001C2D6A /* PBXBookmark */;
+			6CE83CD81101FBC8001C2D6A /* PBXBookmark */ = 6CE83CD81101FBC8001C2D6A /* PBXBookmark */;
+			6CE83CD91101FBC8001C2D6A /* PBXBookmark */ = 6CE83CD91101FBC8001C2D6A /* PBXBookmark */;
+			6CE83CDA1101FBC8001C2D6A /* PBXBookmark */ = 6CE83CDA1101FBC8001C2D6A /* PBXBookmark */;
+			6CE83CDC1101FBC8001C2D6A /* PBXTextBookmark */ = 6CE83CDC1101FBC8001C2D6A /* PBXTextBookmark */;
+			6CE83CDD1101FBC8001C2D6A /* PBXBookmark */ = 6CE83CDD1101FBC8001C2D6A /* PBXBookmark */;
+			6CE83CDE1101FBC8001C2D6A /* PBXBookmark */ = 6CE83CDE1101FBC8001C2D6A /* PBXBookmark */;
+			6CE83CDF1101FBC8001C2D6A /* PlistBookmark */ = 6CE83CDF1101FBC8001C2D6A /* PlistBookmark */;
+			6CF96E4E10F42E36009714CC /* PBXTextBookmark */ = 6CF96E4E10F42E36009714CC /* PBXTextBookmark */;
+			6CF96E4F10F42E36009714CC /* PBXTextBookmark */ = 6CF96E4F10F42E36009714CC /* PBXTextBookmark */;
+			6CF96E5210F42E36009714CC /* PBXTextBookmark */ = 6CF96E5210F42E36009714CC /* PBXTextBookmark */;
+			6CF96E5310F42E36009714CC /* PBXTextBookmark */ = 6CF96E5310F42E36009714CC /* PBXTextBookmark */;
+			6CF96E5410F42E36009714CC /* PBXTextBookmark */ = 6CF96E5410F42E36009714CC /* PBXTextBookmark */;
+			6CF96E7B10F4329C009714CC /* PBXTextBookmark */ = 6CF96E7B10F4329C009714CC /* PBXTextBookmark */;
+			6CFF42FC10FA427A007A21A6 /* PBXTextBookmark */ = 6CFF42FC10FA427A007A21A6 /* PBXTextBookmark */;
 		};
 		sourceControlManager = 6CF96DAD10F38A30009714CC /* Source Control */;
 		userBuildSettings = {
@@ -242,66 +248,6 @@
 		vrLen = 1033;
 		vrLoc = 0;
 	};
-	6C841A1110FA9B75000A6A2A /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 1D3623250D0F684500981E51 /* iMuleAppDelegate.m */;
-		name = "iMuleAppDelegate.m: 28";
-		rLen = 0;
-		rLoc = 734;
-		rType = 0;
-		vrLen = 1409;
-		vrLoc = 226;
-	};
-	6C841A1210FA9B75000A6A2A /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 1D3623250D0F684500981E51 /* iMuleAppDelegate.m */;
-		name = "iMuleAppDelegate.m: 28";
-		rLen = 0;
-		rLoc = 734;
-		rType = 0;
-		vrLen = 1409;
-		vrLoc = 226;
-	};
-	6C841A1310FA9B75000A6A2A /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 28216C960DB411BC00E5133A /* FirstViewController.m */;
-		name = "FirstViewController.m: 1";
-		rLen = 0;
-		rLoc = 0;
-		rType = 0;
-		vrLen = 939;
-		vrLoc = 506;
-	};
-	6C841A1410FA9B75000A6A2A /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 28216C950DB411BC00E5133A /* FirstViewController.h */;
-		name = "FirstViewController.h: 1";
-		rLen = 0;
-		rLoc = 0;
-		rType = 0;
-		vrLen = 224;
-		vrLoc = 0;
-	};
-	6C841A1510FA9B75000A6A2A /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 1D3623240D0F684500981E51 /* iMuleAppDelegate.h */;
-		name = "iMuleAppDelegate.h: 10";
-		rLen = 0;
-		rLoc = 181;
-		rType = 0;
-		vrLen = 1033;
-		vrLoc = 0;
-	};
-	6C841A1610FA9B75000A6A2A /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 1D3623250D0F684500981E51 /* iMuleAppDelegate.m */;
-		name = "iMuleAppDelegate.m: 28";
-		rLen = 0;
-		rLoc = 734;
-		rType = 0;
-		vrLen = 1425;
-		vrLoc = 225;
-	};
 	6CE1266910F77F6E006814F4 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = 6C54953210F4FBEA003A244E /* ResultsController.h */;
@@ -311,16 +257,6 @@
 		rType = 0;
 		vrLen = 602;
 		vrLoc = 0;
-	};
-	6CE83CBF1101F97F001C2D6A /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 1D3623250D0F684500981E51 /* iMuleAppDelegate.m */;
-		name = "iMuleAppDelegate.m: 28";
-		rLen = 0;
-		rLoc = 734;
-		rType = 0;
-		vrLen = 1425;
-		vrLoc = 225;
 	};
 	6CE83CC81101FA16001C2D6A /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
@@ -341,10 +277,6 @@
 		name = tableView.png;
 		path = "/Users/piros/Documents/amule-remote/client/iMule/tableView.png";
 		sourceTree = "<absolute>";
-	};
-	6CE83CCB1101FA16001C2D6A /* PBXBookmark */ = {
-		isa = PBXBookmark;
-		fRef = 6CE83CC41101F9DD001C2D6A /* icon.png */;
 	};
 	6CE83CCC1101FA16001C2D6A /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
@@ -370,15 +302,64 @@
 		path = "/Users/piros/Documents/amule-remote/client/iMule/tableView.png";
 		sourceTree = "<absolute>";
 	};
-	6CE83CD01101FA16001C2D6A /* PBXBookmark */ = {
-		isa = PBXBookmark;
-		fRef = 6CE83CD11101FA16001C2D6A /* icon.png */;
+	6CE83CD61101FBC8001C2D6A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28A0AB4B0D9B1048005BE974 /* iMule_Prefix.pch */;
+		name = "iMule_Prefix.pch: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 179;
+		vrLoc = 0;
 	};
-	6CE83CD11101FA16001C2D6A /* icon.png */ = {
+	6CE83CD71101FBC8001C2D6A /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 6CE83CC61101F9E5001C2D6A /* tableView.png */;
+	};
+	6CE83CD81101FBC8001C2D6A /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 6CE83CC41101F9DD001C2D6A /* icon.png */;
+	};
+	6CE83CD91101FBC8001C2D6A /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 8D1107310486CEB800E47090 /* iMule-Info.plist */;
+	};
+	6CE83CDA1101FBC8001C2D6A /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 6CE83CDB1101FBC8001C2D6A;
+	};
+	6CE83CDB1101FBC8001C2D6A = {
 		isa = PBXFileReference;
-		name = icon.png;
-		path = "/Users/piros/Documents/amule-remote/client/iMule/icon.png";
-		sourceTree = "<absolute>";
+		sourceTree = "<group>";
+	};
+	6CE83CDC1101FBC8001C2D6A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28A0AB4B0D9B1048005BE974 /* iMule_Prefix.pch */;
+		name = "iMule_Prefix.pch: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 179;
+		vrLoc = 0;
+	};
+	6CE83CDD1101FBC8001C2D6A /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 6CE83CC61101F9E5001C2D6A /* tableView.png */;
+	};
+	6CE83CDE1101FBC8001C2D6A /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 6CE83CC41101F9DD001C2D6A /* icon.png */;
+	};
+	6CE83CDF1101FBC8001C2D6A /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8D1107310486CEB800E47090 /* iMule-Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = "/Users/piros/Documents/amule-remote/client/iMule/iMule-Info.plist";
+		rLen = 0;
+		rLoc = 2147483647;
 	};
 	6CF96DA110F38A2D009714CC /* iMule */ = {
 		isa = PBXExecutable;
@@ -438,13 +419,6 @@
 			sepNavSelRange = "{4034, 0}";
 			sepNavVisRange = "{3833, 638}";
 		};
-	};
-	6CF96E1110F42358009714CC /* DownloadsController.m */ = {
-		isa = PBXFileReference;
-		lastKnownFileType = sourcecode.c.objc;
-		name = DownloadsController.m;
-		path = /Users/piros/Desktop/aMuleSocket/iMule/Classes/DownloadsController.m;
-		sourceTree = "<absolute>";
 	};
 	6CF96E4E10F42E36009714CC /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
@@ -515,15 +489,5 @@
 		rType = 0;
 		vrLen = 2074;
 		vrLoc = 2806;
-	};
-	6CFF42FD10FA427A007A21A6 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 6CF96E1110F42358009714CC /* DownloadsController.m */;
-		name = "DownloadsController.m: 141";
-		rLen = 0;
-		rLoc = 4471;
-		rType = 0;
-		vrLen = 1341;
-		vrLoc = 0;
 	};
 }

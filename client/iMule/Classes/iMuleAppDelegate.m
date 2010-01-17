@@ -25,7 +25,7 @@
 	socket= [[AsyncSocket alloc] initWithDelegate:self];
 	NSError *error;
 	//Added dummy port
-	if(![socket connectToHost:@"192.168.0.10" onPort:50007 error:&error]){
+	if(![socket connectToHost:@"192.168.0.10" onPort:2000 error:&error]){
 		NSLog(@"error: %@", error);
 	}
 	else{
