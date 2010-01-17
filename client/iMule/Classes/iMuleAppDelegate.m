@@ -1,9 +1,7 @@
-//
-//  iMuleAppDelegate.m
-//  iMule
-//
-//  Created by piros on 1/5/10.
-//  Copyright __MyCompanyName__ 2010. All rights reserved.
+// iMule
+// iMuleAppDelegate.m
+
+// RELEASED UNDER MIT LICENSE BY PirosB3
 //
 
 #import "iMuleAppDelegate.h"

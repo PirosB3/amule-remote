@@ -1,10 +1,9 @@
+// iMule
+// iMuleAppDelegate.h
+
+// RELEASED UNDER MIT LICENSE BY PirosB3
 //
-//  iMuleAppDelegate.h
-//  iMule
-//
-//  Created by piros on 1/5/10.
-//  Copyright __MyCompanyName__ 2010. All rights reserved.
-//
+
 #import "AsyncSocket.h"
 #import <UIKit/UIKit.h>
 
