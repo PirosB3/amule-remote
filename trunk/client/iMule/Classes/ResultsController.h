@@ -15,8 +15,10 @@
 	UINavigationBar *navigationBar;
 	UINavigationItem *navigationItem;
 	UITableView *tableView;
+	UIActivityIndicatorView *activity;
 }
 -(void)reloadTable;
+@property(nonatomic, retain) IBOutlet UIActivityIndicatorView *activity;
 @property(nonatomic, retain) IBOutlet UITableView *tableView;
 @property(nonatomic, retain) IBOutlet UINavigationBar *navigationBar;
 @property(nonatomic, retain) IBOutlet UINavigationItem *navigationItem;

@@ -14,6 +14,7 @@
 @synthesize navigationBar;
 @synthesize navigationItem;
 @synthesize tableView;
+@synthesize activity;
 
 
 - (void)viewDidLoad {
@@ -36,15 +37,6 @@
 	delegate= (iMuleAppDelegate *)[[UIApplication sharedApplication] delegate];
 	[[delegate socket] writeData:self.resultRequest withTimeout:-1 tag:1];
 }
-
-//- (void)didReceiveMemoryWarning {
-//    [super didReceiveMemoryWarning];
-//}
-
-//- (void)viewDidUnload {
-//	Release any retained subviews of the main view.
-//  e.g. self.myOutlet = nil;
-//}
 
 - (void)searchBarSearchButtonClicked:(UISearchBar *)searchBar{
 	NSLog(@"results:%@", self.results);
@@ -88,13 +80,16 @@
 
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
-	NSString *downloadString= [[NSString alloc] initWithFormat:@"<root type=\"download\" value=\"%@\" />", [NSNumber numberWithInt:indexPath.row]];
+	NSString *downloadString= [[NSString alloc] initWithFormat:@"<root type=\"download\" value=\"%@\" />", [[results objectAtIndex:indexPath.row] valueForKey:@"id"]];
 	NSLog(downloadString);
 	[[delegate socket] writeData:[downloadString dataUsingEncoding:NSASCIIStringEncoding] withTimeout:-1 tag:1];
 	[downloadString release];
 }
 
-
+-(void)viewWillDisappear:(BOOL)animated{
+	NSLog(@"View Dissappeared");
+	self.results= NULL;
+}
 - (void)dealloc {
 	[results release];
 	[super dealloc];

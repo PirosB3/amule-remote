@@ -79,6 +79,10 @@
 			xmlArray= nil;
 		}
 		self.xmlArray= [[NSMutableArray alloc] init];
+		if([elementName isEqualToString:@"results"]) {
+			NSLog(@"Result");
+			[self.results_controller.activity startAnimating];
+		}
 	}
 	else if([elementName isEqualToString:@"file"]){
 		NSLog(@"found file...");
@@ -97,8 +101,8 @@
 		else if([elementName isEqualToString:@"results"]){
 			NSLog(@"results found... reloading table");
 			self.results_controller.results= xmlArray;
-//			NSLog(@"xmlarray: %@ and results: %@", xmlArray, self.results_controller.results);
 			[self.results_controller.tableView reloadData];
+			[self.results_controller.activity stopAnimating];
 		}
 	}
 	else if([elementName isEqualToString:@"error"]){
