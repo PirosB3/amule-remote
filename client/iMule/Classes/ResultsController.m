@@ -66,14 +66,21 @@
 // Customize the appearance of table view cells.
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
     
-    static NSString *CellIdentifier = @"Cell";
+    static NSString *CellIdentifier = @"customCell";
     
-    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier];
+    ResultsControllerCell *cell =(ResultsControllerCell *)[tableView dequeueReusableCellWithIdentifier:CellIdentifier];
     if (cell == nil) {
-        cell = [[[UITableViewCell alloc] initWithStyle:UITableViewCellStyleSubtitle reuseIdentifier:CellIdentifier] autorelease];
+		NSLog(@"Cell has been created");
+        NSArray *nibObjects= [[NSBundle mainBundle] loadNibNamed:@"ResultsCell" owner:nil options:nil];
+		for(id currentObject in nibObjects){
+			if([currentObject isKindOfClass:[ResultsControllerCell class]]){
+				cell= (ResultsControllerCell *)currentObject;
+			}
+		}
     }
-    cell.textLabel.text= [[results objectAtIndex:indexPath.row] valueForKey:@"name"];
-	cell.detailTextLabel.text= [[results objectAtIndex:indexPath.row] valueForKey:@"disp"];
+    cell.fileName.text= [[results objectAtIndex:indexPath.row] valueForKey:@"name"];
+	cell.fileDisp.text= [NSString stringWithFormat:@"Disp: %@", [[results objectAtIndex:indexPath.row] valueForKey:@"disp"]];
+	cell.fileSize.text= [NSString stringWithFormat:@"Size: %@", [[results objectAtIndex:indexPath.row] valueForKey:@"size"]];
     // Set up the cell...
     return cell;
 }

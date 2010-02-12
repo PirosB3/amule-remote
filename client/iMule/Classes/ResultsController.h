@@ -6,6 +6,7 @@
 
 #import <UIKit/UIKit.h>
 #import "iMuleAppDelegate.h"
+#import "ResultsControllerCell.h"
 
 @interface ResultsController : UITableViewController <UISearchBarDelegate> {
 	UISearchBar *searchBar;
