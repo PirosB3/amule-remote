@@ -58,7 +58,10 @@ class amulecmd():
 ## RETURN DOWNLOAD STATUS
 		if not self.timeout:
 			list= self.command('show DL').splitlines()
-			status_pattern= '\[\w*,\w*%\]'
+			## For older versions
+			## status_pattern= '\[\w*,\w*%\]'
+			status_pattern= '\[\w*.\w*%\]'
+			##
 			arrange= True
 			files= []
 			status= []
