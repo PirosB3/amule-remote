@@ -32,7 +32,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-	NSString *downloadString= @"<root type=\"request\" prompt=\"downloads\" />";
+	NSString *downloadString= @"<root type=\"request\" prompt=\"downloads\" />\r\n";
 	self.downloadRequest= [downloadString dataUsingEncoding:NSASCIIStringEncoding];
 	[downloadString release];
 }
@@ -135,7 +135,7 @@
     
     if (editingStyle == UITableViewCellEditingStyleDelete) {
         NSString *hash= [NSString stringWithFormat:[[downloads objectAtIndex:indexPath.row] valueForKey:@"hash"]];
-		NSString *deleteRequest= [[NSString alloc] initWithFormat:@"<root type=\"cancel\" value=\"%@\" />", hash];
+		NSString *deleteRequest= [[NSString alloc] initWithFormat:@"<root type=\"cancel\" value=\"%@\" />\r\n", hash];
 		NSLog(deleteRequest);
 		[[delegate socket] writeData:[deleteRequest dataUsingEncoding:NSASCIIStringEncoding] withTimeout:-1 tag:1];
 		[deleteRequest release];
