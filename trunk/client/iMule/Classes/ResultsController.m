@@ -21,7 +21,7 @@
 	UIBarButtonItem *reload= [[UIBarButtonItem alloc] initWithTitle:@"Reload" style:UIBarButtonItemStyleBordered target:self action:@selector(reloadTable)];
 	self.navigationItem.rightBarButtonItem= reload;
     [super viewDidLoad];
-	NSString *resultString= @"<root type=\"request\" prompt=\"results\" />";
+	NSString *resultString= @"<root type=\"request\" prompt=\"results\" />\r\n";
 	self.resultRequest= [resultString dataUsingEncoding:NSASCIIStringEncoding];
 	[resultString release];
 	
@@ -40,7 +40,7 @@
 
 - (void)searchBarSearchButtonClicked:(UISearchBar *)searchBar{
 	NSLog(@"results:%@", self.results);
-	NSString *search= [NSString stringWithFormat:@"<root type=\"search\" value=\"%@\" />", self.searchBar.text];
+	NSString *search= [NSString stringWithFormat:@"<root type=\"search\" value=\"%@\" />\r\n", self.searchBar.text];
 	[[delegate socket] writeData:[search dataUsingEncoding:NSASCIIStringEncoding] withTimeout:-1 tag:3];
 	[self.searchBar resignFirstResponder];
 }
@@ -87,7 +87,7 @@
 
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
-	NSString *downloadString= [[NSString alloc] initWithFormat:@"<root type=\"download\" value=\"%@\" />", [[results objectAtIndex:indexPath.row] valueForKey:@"id"]];
+	NSString *downloadString= [[NSString alloc] initWithFormat:@"<root type=\"download\" value=\"%@\" />\r\n", [[results objectAtIndex:indexPath.row] valueForKey:@"id"]];
 	NSLog(downloadString);
 	[[delegate socket] writeData:[downloadString dataUsingEncoding:NSASCIIStringEncoding] withTimeout:-1 tag:1];
 	[downloadString release];
