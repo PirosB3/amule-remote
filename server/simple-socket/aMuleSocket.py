@@ -21,7 +21,7 @@ mule= amulecmd()
 logfile= open('log.txt', 'a+') ## CHANGE IF NECESSARY
 
 host= socket.gethostbyname(socket.gethostname()) ## CHANGE IF NECESSARY
-port= 2000 ## CHANGE IF NECESSARY
+port= 14000 ## CHANGE IF NECESSARY
 
 def request_from_aMule(element):
     ask= element.attrib['prompt']
