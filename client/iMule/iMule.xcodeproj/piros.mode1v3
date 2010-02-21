@@ -268,6 +268,7 @@
 								<string>080E96DDFE201D6D7F000001</string>
 								<string>29B97315FDCFA39411CA2CEA</string>
 								<string>29B97317FDCFA39411CA2CEA</string>
+								<string>6C7131D91131B3ED0027781F</string>
 								<string>1C37FBAC04509CD000000102</string>
 								<string>1C37FABC05509CD000000102</string>
 								<string>1CC0EA4004350EF90041110B</string>
@@ -300,7 +301,7 @@
 							<real>186</real>
 						</array>
 						<key>RubberWindowFrame</key>
-						<string>23 95 1280 897 0 0 1280 1002 </string>
+						<string>93 34 1280 897 0 0 1280 1002 </string>
 					</dict>
 					<key>Module</key>
 					<string>PBXSmartGroupTreeModule</string>
@@ -330,7 +331,7 @@
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>6C37ECDD112CB04300D8D406</string>
+										<string>6C71324E1131BF0E0027781F</string>
 										<key>history</key>
 										<array>
 											<string>6CE83CD61101FBC8001C2D6A</string>
@@ -343,8 +344,9 @@
 											<string>6CB4FF47112B4CB700B9F789</string>
 											<string>6C37ECC0112C553000D8D406</string>
 											<string>6C37ECC1112C553000D8D406</string>
-											<string>6C37ECC2112C553000D8D406</string>
-											<string>6C37ECD1112C5B0E00D8D406</string>
+											<string>6C7132131131B9BF0027781F</string>
+											<string>6C71321D1131BACF0027781F</string>
+											<string>6C71321E1131BACF0027781F</string>
 										</array>
 										<key>prevStack</key>
 										<array>
@@ -361,6 +363,20 @@
 											<string>6C01ACF31102AADF003E7F8E</string>
 											<string>6C42CCE51125D9010031B59E</string>
 											<string>6C42CCE61125D9010031B59E</string>
+											<string>6C7131E51131B5430027781F</string>
+											<string>6C7131FE1131B8FF0027781F</string>
+											<string>6C7131FF1131B8FF0027781F</string>
+											<string>6C7132001131B8FF0027781F</string>
+											<string>6C7132011131B8FF0027781F</string>
+											<string>6C7132021131B8FF0027781F</string>
+											<string>6C7132031131B8FF0027781F</string>
+											<string>6C7132041131B8FF0027781F</string>
+											<string>6C7132051131B8FF0027781F</string>
+											<string>6C7132151131B9BF0027781F</string>
+											<string>6C7132161131B9BF0027781F</string>
+											<string>6C7132171131B9BF0027781F</string>
+											<string>6C71321F1131BACF0027781F</string>
+											<string>6C7132201131BACF0027781F</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -374,7 +390,7 @@
 								<key>Frame</key>
 								<string>{{0, 0}, {1072, 678}}</string>
 								<key>RubberWindowFrame</key>
-								<string>23 95 1280 897 0 0 1280 1002 </string>
+								<string>93 34 1280 897 0 0 1280 1002 </string>
 							</dict>
 							<key>Module</key>
 							<string>PBXNavigatorGroup</string>
@@ -394,7 +410,7 @@
 								<key>Frame</key>
 								<string>{{0, 683}, {1072, 173}}</string>
 								<key>RubberWindowFrame</key>
-								<string>23 95 1280 897 0 0 1280 1002 </string>
+								<string>93 34 1280 897 0 0 1280 1002 </string>
 							</dict>
 							<key>Module</key>
 							<string>XCDetailModule</string>
@@ -418,9 +434,9 @@
 			</array>
 			<key>TableOfContents</key>
 			<array>
-				<string>6C37ECD8112CAE2500D8D406</string>
+				<string>6C7131E81131B5430027781F</string>
 				<string>1CE0B1FE06471DED0097A5F4</string>
-				<string>6C37ECD9112CAE2500D8D406</string>
+				<string>6C7131E91131B5430027781F</string>
 				<string>1CE0B20306471E060097A5F4</string>
 				<string>1CE0B20506471E060097A5F4</string>
 			</array>
@@ -554,15 +570,14 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
-		<string>6C37ECE6112CB04300D8D406</string>
-		<string>6C37ECE7112CB04300D8D406</string>
+		<string>6C7131F31131B5430027781F</string>
 		<string>1C78EAAD065D492600B07095</string>
 		<string>1CD10A99069EF8BA00B06720</string>
 		<string>6CF96E3F10F42E2E009714CC</string>
 		<string>/Users/piros/Documents/amule-remote/client/iMule/iMule.xcodeproj</string>
 	</array>
 	<key>WindowString</key>
-	<string>23 95 1280 897 0 0 1280 1002 </string>
+	<string>93 34 1280 897 0 0 1280 1002 </string>
 	<key>WindowToolsV3</key>
 	<array>
 		<dict>
@@ -639,7 +654,7 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>6CF96E3F10F42E2E009714CC</string>
-				<string>6C37ECDE112CB04300D8D406</string>
+				<string>6C7131EA1131B5430027781F</string>
 				<string>1CD0528F0623707200166675</string>
 				<string>XCMainBuildResultsModuleGUID</string>
 			</array>
@@ -759,13 +774,13 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>1CD10A99069EF8BA00B06720</string>
-				<string>6C37ECDF112CB04300D8D406</string>
+				<string>6C7131EB1131B5430027781F</string>
 				<string>1C162984064C10D400B95A72</string>
-				<string>6C37ECE0112CB04300D8D406</string>
-				<string>6C37ECE1112CB04300D8D406</string>
-				<string>6C37ECE2112CB04300D8D406</string>
-				<string>6C37ECE3112CB04300D8D406</string>
-				<string>6C37ECE4112CB04300D8D406</string>
+				<string>6C7131EC1131B5430027781F</string>
+				<string>6C7131ED1131B5430027781F</string>
+				<string>6C7131EE1131B5430027781F</string>
+				<string>6C7131EF1131B5430027781F</string>
+				<string>6C7131F01131B5430027781F</string>
 			</array>
 			<key>ToolbarConfiguration</key>
 			<string>xcode.toolbar.config.debugV3</string>
@@ -884,6 +899,8 @@
 					<key>Dock</key>
 					<array>
 						<dict>
+							<key>BecomeActive</key>
+							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
@@ -896,7 +913,7 @@
 								<key>Frame</key>
 								<string>{{0, 0}, {557, 245}}</string>
 								<key>RubberWindowFrame</key>
-								<string>181 134 557 286 0 0 1280 1002 </string>
+								<string>269 435 557 286 0 0 1280 1002 </string>
 							</dict>
 							<key>Module</key>
 							<string>PBXDebugCLIModule</string>
@@ -919,13 +936,13 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>1C78EAAD065D492600B07095</string>
-				<string>6C37ECE5112CB04300D8D406</string>
+				<string>6C7131F11131B5430027781F</string>
 				<string>1C78EAAC065D492600B07095</string>
 			</array>
 			<key>ToolbarConfiguration</key>
 			<string>xcode.toolbar.config.consoleV3</string>
 			<key>WindowString</key>
-			<string>181 134 557 286 0 0 1280 1002 </string>
+			<string>269 435 557 286 0 0 1280 1002 </string>
 			<key>WindowToolGUID</key>
 			<string>1C78EAAD065D492600B07095</string>
 			<key>WindowToolIsVisible</key>

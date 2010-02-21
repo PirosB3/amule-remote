@@ -16,14 +16,17 @@
 @synthesize xmlArray;
 @synthesize downloads_Controller;
 @synthesize results_controller;
+@synthesize hostAddress;
 
 - (void)applicationDidFinishLaunching:(UIApplication *)application {
     
     // Add the tab bar controller's current view as a subview of the window
+	hostAddress= [[NSUserDefaults standardUserDefaults] stringForKey:@"serverAddressPref"];
+	NSLog(hostAddress);
 	socket= [[AsyncSocket alloc] initWithDelegate:self];
 	NSError *error;
 	//Added dummy port
-	if(![socket connectToHost:@"192.168.0.10" onPort:14000 error:&error]){
+	if(![socket connectToHost:hostAddress onPort:14000 error:&error]){
 		NSLog(@"error: %@", error);
 	}
 	else{
@@ -52,7 +55,7 @@
 
 //DELEGATES SOCKET
 -(void)onSocket:(AsyncSocket *)sock willDisconnectWithError:(NSError *)err{
-	UIAlertView *alert= [[UIAlertView alloc] initWithTitle:@"Connection failed" message:@"There was a connection problem" delegate:self cancelButtonTitle:@"Close" otherButtonTitles:nil];
+	UIAlertView *alert= [[UIAlertView alloc] initWithTitle:@"Connection failed" message:@"There has been connection problem, or you haven't configured your host in the Settings Pane" delegate:self cancelButtonTitle:@"Close" otherButtonTitles:nil];
 	[alert show];
 	[alert release];
 }
@@ -118,6 +121,7 @@
 	[socket release];
 	[parser release];
     [tabBarController release];
+	[hostAddress release];
     [window release];
     [super dealloc];
 }
