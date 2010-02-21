@@ -3,15 +3,15 @@
 	1D3623240D0F684500981E51 /* iMuleAppDelegate.h */ = {
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {1011, 646}}";
-			sepNavSelRange = "{76, 0}";
-			sepNavVisRange = "{0, 977}";
+			sepNavSelRange = "{602, 0}";
+			sepNavVisRange = "{0, 1053}";
 		};
 	};
 	1D3623250D0F684500981E51 /* iMuleAppDelegate.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1011, 1946}}";
-			sepNavSelRange = "{677, 0}";
-			sepNavVisRange = "{0, 1144}";
+			sepNavIntBoundsRect = "{{0, 0}, {1494, 1820}}";
+			sepNavSelRange = "{1698, 0}";
+			sepNavVisRange = "{1225, 1748}";
 			sepNavWindowFrame = "{{38, 8}, {1246, 952}}";
 		};
 	};
@@ -29,9 +29,9 @@
 		};
 	};
 	29B97313FDCFA39411CA2CEA /* Project object */ = {
-		activeBuildConfigurationName = Release;
+		activeBuildConfigurationName = Debug;
 		activeExecutable = 6CF96DA110F38A2D009714CC /* iMule */;
-		activeSDKPreference = iphoneos3.1.2;
+		activeSDKPreference = iphonesimulator3.1.2;
 		activeTarget = 1D6058900D05DD3D006BFB54 /* iMule */;
 		addToTargets = (
 			1D6058900D05DD3D006BFB54 /* iMule */,
@@ -99,17 +99,14 @@
 					PBXFileDataSource_Warnings_ColumnID,
 				);
 			};
-			PBXPerProjectTemplateStateSaveDate = 288140824;
-			PBXWorkspaceStateSaveDate = 288140824;
+			PBXPerProjectTemplateStateSaveDate = 288469972;
+			PBXWorkspaceStateSaveDate = 288469972;
 		};
 		perUserProjectItems = {
 			6C01ACF11102AADF003E7F8E /* PlistBookmark */ = 6C01ACF11102AADF003E7F8E /* PlistBookmark */;
 			6C01ACF31102AADF003E7F8E /* PlistBookmark */ = 6C01ACF31102AADF003E7F8E /* PlistBookmark */;
 			6C37ECC0112C553000D8D406 /* PBXTextBookmark */ = 6C37ECC0112C553000D8D406 /* PBXTextBookmark */;
 			6C37ECC1112C553000D8D406 /* PBXTextBookmark */ = 6C37ECC1112C553000D8D406 /* PBXTextBookmark */;
-			6C37ECC2112C553000D8D406 /* PBXTextBookmark */ = 6C37ECC2112C553000D8D406 /* PBXTextBookmark */;
-			6C37ECD1112C5B0E00D8D406 /* PBXTextBookmark */ = 6C37ECD1112C5B0E00D8D406 /* PBXTextBookmark */;
-			6C37ECDD112CB04300D8D406 /* PBXTextBookmark */ = 6C37ECDD112CB04300D8D406 /* PBXTextBookmark */;
 			6C42CCDE1125D9010031B59E /* PBXTextBookmark */ = 6C42CCDE1125D9010031B59E /* PBXTextBookmark */;
 			6C42CCE11125D9010031B59E /* PBXTextBookmark */ = 6C42CCE11125D9010031B59E /* PBXTextBookmark */;
 			6C42CCE51125D9010031B59E /* PBXTextBookmark */ = 6C42CCE51125D9010031B59E /* PBXTextBookmark */;
@@ -118,6 +115,24 @@
 			6C54951610F4EBD2003A244E /* PBXTextBookmark */ = 6C54951610F4EBD2003A244E /* PBXTextBookmark */;
 			6C54954310F4FE2C003A244E /* PBXTextBookmark */ = 6C54954310F4FE2C003A244E /* PBXTextBookmark */;
 			6C54955310F5009C003A244E /* PBXTextBookmark */ = 6C54955310F5009C003A244E /* PBXTextBookmark */;
+			6C7131E51131B5430027781F /* PBXTextBookmark */ = 6C7131E51131B5430027781F /* PBXTextBookmark */;
+			6C7131FE1131B8FF0027781F /* PlistBookmark */ = 6C7131FE1131B8FF0027781F /* PlistBookmark */;
+			6C7131FF1131B8FF0027781F /* PBXTextBookmark */ = 6C7131FF1131B8FF0027781F /* PBXTextBookmark */;
+			6C7132001131B8FF0027781F /* PBXTextBookmark */ = 6C7132001131B8FF0027781F /* PBXTextBookmark */;
+			6C7132011131B8FF0027781F /* PBXTextBookmark */ = 6C7132011131B8FF0027781F /* PBXTextBookmark */;
+			6C7132021131B8FF0027781F /* PBXTextBookmark */ = 6C7132021131B8FF0027781F /* PBXTextBookmark */;
+			6C7132031131B8FF0027781F /* PBXTextBookmark */ = 6C7132031131B8FF0027781F /* PBXTextBookmark */;
+			6C7132041131B8FF0027781F /* PBXTextBookmark */ = 6C7132041131B8FF0027781F /* PBXTextBookmark */;
+			6C7132051131B8FF0027781F /* PBXTextBookmark */ = 6C7132051131B8FF0027781F /* PBXTextBookmark */;
+			6C7132131131B9BF0027781F /* PBXTextBookmark */ = 6C7132131131B9BF0027781F /* PBXTextBookmark */;
+			6C7132151131B9BF0027781F /* PBXTextBookmark */ = 6C7132151131B9BF0027781F /* PBXTextBookmark */;
+			6C7132161131B9BF0027781F /* PlistBookmark */ = 6C7132161131B9BF0027781F /* PlistBookmark */;
+			6C7132171131B9BF0027781F /* PBXTextBookmark */ = 6C7132171131B9BF0027781F /* PBXTextBookmark */;
+			6C71321D1131BACF0027781F /* PlistBookmark */ = 6C71321D1131BACF0027781F /* PlistBookmark */;
+			6C71321E1131BACF0027781F /* PBXTextBookmark */ = 6C71321E1131BACF0027781F /* PBXTextBookmark */;
+			6C71321F1131BACF0027781F /* PBXTextBookmark */ = 6C71321F1131BACF0027781F /* PBXTextBookmark */;
+			6C7132201131BACF0027781F /* PlistBookmark */ = 6C7132201131BACF0027781F /* PlistBookmark */;
+			6C71324E1131BF0E0027781F /* PBXTextBookmark */ = 6C71324E1131BF0E0027781F /* PBXTextBookmark */;
 			6CB4FF46112B4CB700B9F789 /* PBXTextBookmark */ = 6CB4FF46112B4CB700B9F789 /* PBXTextBookmark */;
 			6CB4FF47112B4CB700B9F789 /* PBXTextBookmark */ = 6CB4FF47112B4CB700B9F789 /* PBXTextBookmark */;
 			6CE83CCD1101FA16001C2D6A /* PBXBookmark */ = 6CE83CCD1101FA16001C2D6A /* PBXBookmark */;
@@ -174,36 +189,6 @@
 		rLoc = 0;
 		rType = 0;
 		vrLen = 1668;
-		vrLoc = 0;
-	};
-	6C37ECC2112C553000D8D406 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 1D3623240D0F684500981E51 /* iMuleAppDelegate.h */;
-		name = "iMuleAppDelegate.h: 6";
-		rLen = 0;
-		rLoc = 76;
-		rType = 0;
-		vrLen = 977;
-		vrLoc = 0;
-	};
-	6C37ECD1112C5B0E00D8D406 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 1D3623250D0F684500981E51 /* iMuleAppDelegate.m */;
-		name = "iMuleAppDelegate.m: 26";
-		rLen = 0;
-		rLoc = 677;
-		rType = 0;
-		vrLen = 1264;
-		vrLoc = 32;
-	};
-	6C37ECDD112CB04300D8D406 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 1D3623250D0F684500981E51 /* iMuleAppDelegate.m */;
-		name = "iMuleAppDelegate.m: 26";
-		rLen = 0;
-		rLoc = 677;
-		rType = 0;
-		vrLen = 1144;
 		vrLoc = 0;
 	};
 	6C42CCC11125D2010031B59E /* ResultsControllerCell.h */ = {
@@ -315,6 +300,200 @@
 		rType = 0;
 		vrLen = 494;
 		vrLoc = 0;
+	};
+	6C7131E41131B5430027781F /* Root.plist */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = text.plist.xml;
+		name = Root.plist;
+		path = "/Users/piros/Documents/amule-remote/client/iMule/Settings.bundle/Root.plist";
+		sourceTree = "<absolute>";
+	};
+	6C7131E51131B5430027781F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* iMuleAppDelegate.m */;
+		name = "iMuleAppDelegate.m: 26";
+		rLen = 0;
+		rLoc = 1006;
+		rType = 0;
+		vrLen = 1144;
+		vrLoc = 0;
+	};
+	6C7131FE1131B8FF0027781F /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 6C7131E41131B5430027781F /* Root.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+			PreferenceSpecifiers,
+			0,
+			Key,
+		);
+		name = "/Users/piros/Documents/amule-remote/client/iMule/Settings.bundle/Root.plist";
+		rLen = 0;
+		rLoc = 2147483647;
+	};
+	6C7131FF1131B8FF0027781F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623240D0F684500981E51 /* iMuleAppDelegate.h */;
+		name = "iMuleAppDelegate.h: 6";
+		rLen = 0;
+		rLoc = 76;
+		rType = 0;
+		vrLen = 977;
+		vrLoc = 0;
+	};
+	6C7132001131B8FF0027781F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* iMuleAppDelegate.m */;
+		name = "iMuleAppDelegate.m: 26";
+		rLen = 0;
+		rLoc = 1006;
+		rType = 0;
+		vrLen = 1144;
+		vrLoc = 0;
+	};
+	6C7132011131B8FF0027781F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623240D0F684500981E51 /* iMuleAppDelegate.h */;
+		name = "iMuleAppDelegate.h: 6";
+		rLen = 0;
+		rLoc = 76;
+		rType = 0;
+		vrLen = 977;
+		vrLoc = 0;
+	};
+	6C7132021131B8FF0027781F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* iMuleAppDelegate.m */;
+		name = "iMuleAppDelegate.m: 26";
+		rLen = 0;
+		rLoc = 1006;
+		rType = 0;
+		vrLen = 1144;
+		vrLoc = 0;
+	};
+	6C7132031131B8FF0027781F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623240D0F684500981E51 /* iMuleAppDelegate.h */;
+		name = "iMuleAppDelegate.h: 21";
+		rLen = 0;
+		rLoc = 516;
+		rType = 0;
+		vrLen = 989;
+		vrLoc = 0;
+	};
+	6C7132041131B8FF0027781F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* iMuleAppDelegate.m */;
+		name = "iMuleAppDelegate.m: 26";
+		rLen = 0;
+		rLoc = 1006;
+		rType = 0;
+		vrLen = 1144;
+		vrLoc = 0;
+	};
+	6C7132051131B8FF0027781F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623240D0F684500981E51 /* iMuleAppDelegate.h */;
+		name = "iMuleAppDelegate.h: 24";
+		rLen = 0;
+		rLoc = 602;
+		rType = 0;
+		vrLen = 1053;
+		vrLoc = 0;
+	};
+	6C7132131131B9BF0027781F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623240D0F684500981E51 /* iMuleAppDelegate.h */;
+		name = "iMuleAppDelegate.h: 24";
+		rLen = 0;
+		rLoc = 602;
+		rType = 0;
+		vrLen = 1053;
+		vrLoc = 0;
+	};
+	6C7132151131B9BF0027781F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* iMuleAppDelegate.m */;
+		name = "iMuleAppDelegate.m: 27";
+		rLen = 0;
+		rLoc = 456;
+		rType = 0;
+		vrLen = 1385;
+		vrLoc = 222;
+	};
+	6C7132161131B9BF0027781F /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 6C7131E41131B5430027781F /* Root.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = "/Users/piros/Documents/amule-remote/client/iMule/Settings.bundle/Root.plist";
+		rLen = 0;
+		rLoc = 2147483647;
+	};
+	6C7132171131B9BF0027781F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623240D0F684500981E51 /* iMuleAppDelegate.h */;
+		name = "iMuleAppDelegate.h: 24";
+		rLen = 0;
+		rLoc = 602;
+		rType = 0;
+		vrLen = 1053;
+		vrLoc = 0;
+	};
+	6C71321D1131BACF0027781F /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 6C7131E41131B5430027781F /* Root.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = "/Users/piros/Documents/amule-remote/client/iMule/Settings.bundle/Root.plist";
+		rLen = 0;
+		rLoc = 2147483647;
+	};
+	6C71321E1131BACF0027781F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* iMuleAppDelegate.m */;
+		name = "iMuleAppDelegate.m: 22";
+		rLen = 0;
+		rLoc = 465;
+		rType = 0;
+		vrLen = 1466;
+		vrLoc = 222;
+	};
+	6C71321F1131BACF0027781F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* iMuleAppDelegate.m */;
+		name = "iMuleAppDelegate.m: 22";
+		rLen = 0;
+		rLoc = 465;
+		rType = 0;
+		vrLen = 1466;
+		vrLoc = 222;
+	};
+	6C7132201131BACF0027781F /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 6C7131E41131B5430027781F /* Root.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = "/Users/piros/Documents/amule-remote/client/iMule/Settings.bundle/Root.plist";
+		rLen = 0;
+		rLoc = 2147483647;
+	};
+	6C71324E1131BF0E0027781F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* iMuleAppDelegate.m */;
+		name = "iMuleAppDelegate.m: 58";
+		rLen = 0;
+		rLoc = 1698;
+		rType = 0;
+		vrLen = 1748;
+		vrLoc = 1225;
 	};
 	6CB4FF46112B4CB700B9F789 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
@@ -447,7 +626,7 @@
 		fRef = 1D3623250D0F684500981E51 /* iMuleAppDelegate.m */;
 		name = "iMuleAppDelegate.m: 56";
 		rLen = 0;
-		rLoc = 1884;
+		rLoc = 2512;
 		rType = 0;
 		vrLen = 487;
 		vrLoc = 1348;

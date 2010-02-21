@@ -18,8 +18,10 @@
 	NSMutableArray *xmlArray;
 	DownloadsController *downloads_Controller;
 	ResultsController *results_controller;
+	NSString *hostAddress;
 }
 -(void)XMLParse:(NSData *)data;
+@property(nonatomic, retain) NSString *hostAddress;
 @property(nonatomic, retain) IBOutlet ResultsController *results_controller;
 @property(nonatomic, retain) IBOutlet DownloadsController *downloads_Controller;
 @property(nonatomic, retain) IBOutlet UIWindow *window;
