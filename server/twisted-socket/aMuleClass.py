@@ -79,7 +79,7 @@ class amulecmd():
 				arrange= True
 			for x in range(0, len(files)):
 			        results.append('<file name="%s" status="%s" hash="%s" />\n'  %(self.filters(files[x]), status[x], hashes[x]))
-			return '<?xml version="1.0" encoding="UTF-8" ?>\n<root>\n<downloads>\n' + "".join(results) + '</downloads>\n</root>\n'
+			return '<?xml version="1.0" encoding="UTF-8" ?>\n<root>\n<downloads>\n' + "".join(results) + '</downloads>\n</root>'
 		else:
 			return '<?xml version="1.0" encoding="UTF-8" ?>\n<root>\n<error type="aMule not running"/>\n</root>'
 		
@@ -106,6 +106,6 @@ class amulecmd():
 			    pass
 		    for result in self.sortByDisp(results_unsorted)[0:30]:
 			results_xml.append('<file id="%d" name="%s" size="%d" disp="%d"/>\n' % (result['num'], self.filters(result['name']), result['size'], result['disp']))
-		    return '<?xml version="1.0" encoding="UTF-8" ?>\n<root>\n<results>\n' + "".join(results_xml) + "</results>\n</root>\n"
+		    return '<?xml version="1.0" encoding="UTF-8" ?>\n<root>\n<results>\n' + "".join(results_xml) + "</results>\n</root>"
 		else:
 			return '<?xml version="1.0" encoding="UTF-8" ?>\n<root>\n<error type="aMule not running"/>\n</root>'
