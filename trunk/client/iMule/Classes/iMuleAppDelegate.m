@@ -17,6 +17,7 @@
 @synthesize downloads_Controller;
 @synthesize results_controller;
 @synthesize hostAddress;
+@synthesize socketDelimiter;
 
 - (void)applicationDidFinishLaunching:(UIApplication *)application {
     
@@ -30,11 +31,17 @@
 		NSLog(@"error: %@", error);
 	}
 	else{
-		[socket readDataWithTimeout:-1 tag:2];
+		self.socketDelimiter= [@"</root>" dataUsingEncoding:NSASCIIStringEncoding];
+		[socket readDataToData:self.socketDelimiter withTimeout:-1 tag:2];
 	}
 }
 
 -(void)XMLParse:(NSData *)data{
+//
+//	NSString *aString= [[NSString alloc] initWithData:data encoding:NSASCIIStringEncoding];
+//	NSLog(@"Data is:\n**********%@**********\n", aString);
+//
+	[parser release];
 	parser= [NSXMLParser alloc];
 	parser.delegate= self;
 	[parser initWithData:data];
@@ -61,11 +68,8 @@
 }
 
 -(void)onSocket:(AsyncSocket *)sock didReadData:(NSData*)data withTag:(long)tag{
-	//NSString *results_string= [[NSString alloc] initWithData:data encoding:NSASCIIStringEncoding];
-	//output.text= results_string;
 	[self XMLParse:data];
-	[socket readDataWithTimeout:-1 tag:1];
-	//[results_string release];
+	[socket readDataToData:self.socketDelimiter withTimeout:-1 tag:2];
 }
 
 -(void)onSocket:(AsyncSocket *)sock didConnectToHost:(NSString *)host port:(UInt16)port{
@@ -114,11 +118,15 @@
 		[alert release];
 	}
 }
+// - (void)parser:(NSXMLParser *)parser parseErrorOccurred:(NSError *)parseError{
+//  NSLog(@"Error: %@ %@ %@", parseError, [parseError userInfo], [parseError description]);
+// }
 
 // END DELEGATES XML PARSER
 - (void)dealloc {
 	[xmlArray release];
 	[socket release];
+	[socketDelimiter release];
 	[parser release];
     [tabBarController release];
 	[hostAddress release];

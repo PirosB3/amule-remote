@@ -19,8 +19,10 @@
 	DownloadsController *downloads_Controller;
 	ResultsController *results_controller;
 	NSString *hostAddress;
+	NSData *socketDelimiter;
 }
 -(void)XMLParse:(NSData *)data;
+@property(nonatomic, retain) NSData *socketDelimiter;
 @property(nonatomic, retain) NSString *hostAddress;
 @property(nonatomic, retain) IBOutlet ResultsController *results_controller;
 @property(nonatomic, retain) IBOutlet DownloadsController *downloads_Controller;
